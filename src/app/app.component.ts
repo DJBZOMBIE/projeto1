@@ -10,10 +10,11 @@ export class AppComponent {
   
   aluno = {
     nome : 'Daniel',
-    cpf : '111.111.111-11',
-    telefone : '11111-1111',
+    cpf : '12345678910',
+    telefone : '123456789',
     email : 'Danieltest@gmail.com',
-    dataNascimento : '21/04/1993'
+    dataNascimento : new Date(),
+    peso : 129.76
   };
 
 }
